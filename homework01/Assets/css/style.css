@@ -1,0 +1,237 @@
+
+html, body{
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  background-image: url("https://i.imgur.com/cy4Urcg.jpg?1"); 
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  width: 960px;
+  height: 100%;
+}
+.container h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: bottom;
+  border-color: #dddddd;
+  width: auto;
+  padding-top: 20px;
+}
+.container img{
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 25px;
+  padding-top: 0px;
+  float: left;
+}
+.container p{
+  width: auto;
+  text-align: left;
+  line-height: 1.5;
+  background-color:  #ffffff;   
+  float: right;
+  padding-top: 20px;
+}
+.pagetitle {
+text-align: left;
+border-bottom: solid; height: 25px; color: #dddddd;
+border-width: 2.5px;
+padding-top: 20px;
+font-size: 20px;
+background-color: #ffffff;
+}
+.pagetitle h1{
+color: #4aaaa5;
+font-size: 16pt;
+font-weight: bold;
+
+}
+h2{
+  Background-color: #4aaaa5;
+  padding: 5px;
+  vertical-align: text-bottom;
+}
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  border-bottom: solid; color: #dddddd;
+  
+      }
+
+.topnav a {
+  float: right;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(155, 155, 155);
+  color: #ffffff;
+}
+
+.topnav a.active {
+  background-color: #4aaaa5;
+  color: white;
+  float: left;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+<!--Contact Page-->
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  color: #777777;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+<!--Portfolio-->
+.portfolio{
+  background-color: #ffffff;
+}
+.example1{
+  background-image: url("https://i.imgur.com/m4Wj7Wy.jpg");
+  background-size: 100%;
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  color: white;
+  float: left;
+  padding: 25px;
+  text-align: center;
+  vertical-align: baseline;
+}
+.example2{
+  background-image: url("https://i.imgur.com/sT9qNNj.jpg");
+  background-size: 100%;
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  color: white;
+  float: left;
+  padding: 25px;
+  text-align: center;
+
+}
+.example3{
+  background-image: url("https://i.imgur.com/V4BLKGq.jpg");
+  background-size: 100%;
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  color: white;
+  clear: left;
+  float: left;
+  padding: 25px;
+  text-align: center;
+}
+.example4{
+  background-image: url("https://i.imgur.com/H7UNJBA.jpg");
+  background-size: 100%;
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  color: white;
+  float: left;
+  padding: 25px;
+  text-align: center;
+}
+.example5{
+  background-image: url("https://i.imgur.com/3IFrIRo.jpg");
+  background-size: 100%;
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  color: white;
+  clear: left;
+  float: left;
+  padding: 25px;
+  text-align: center;
+
+}
+
+<!--footer -->
+
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+    background-color: #666666;
+    
+    
+  }
+  .footer,
+  .push {
+    height: 25px;
+    background-color: #666666;
+    bottom: 
+   
+  }
+  .wrapper1 {
+    min-height: 25px;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+    background-color: #666666;
+  
+    
+    
+  }
+  .footer1,
+  .push1 {
+    height: 25px;
+    background-color: #666666;
+  
+  }
+
+
+

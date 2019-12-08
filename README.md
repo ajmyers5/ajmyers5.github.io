@@ -1,1 +1,0 @@
-# ajmyers5.github.io
