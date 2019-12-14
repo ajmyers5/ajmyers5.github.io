@@ -1,0 +1,38 @@
+/* BootStrap Style Sheet */
+body{
+    padding: 3vh;
+    background-image: url("https://i.imgur.com/cy4Urcg.jpg?1"); 
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    background-color: #ffffff;
+
+}
+#body1{
+    padding: 2vh;
+  
+}
+#header{
+    padding: 2vh;
+    color: #4aaaa5;
+}
+#name{
+    width: 35vh;
+}
+#name1{
+    padding: 2vh;
+}
+#name2{
+    padding: 2vh;
+}
+#footer{
+    background-color: #666666;
+    padding: 5vh;
+    height: 5vh;
+    vertical-align: baseline;
+    width: 100%;
+}
+#deck1{
+    padding: 2vh
+}
